@@ -1,0 +1,2 @@
+[console_scripts]
+balatro-mcp = balatro_mcp.mcp_server.stdio_main:main

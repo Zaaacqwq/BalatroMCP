@@ -1,0 +1,48 @@
+version: 1
+
+stakes:
+  white:
+    fact: "Base difficulty"
+    policy:
+      - "Normal strategic baseline."
+
+  red:
+    fact: "Small Blind gives no reward money"
+    policy:
+      - "Skips and small-blind routing should consider reduced reward value."
+      - "Economy from other sources becomes slightly more important."
+
+  green:
+    fact: "Required score scales faster each Ante"
+    policy:
+      - "Stabilize faster and devalue slow speculative setup."
+
+  black:
+    fact: "30% chance shop/pack jokers are Eternal"
+    policy:
+      - "Be more selective with joker purchases."
+      - "Avoid buying low-impact filler that may become hard to remove."
+
+  blue:
+    fact: "-1 discard"
+    policy:
+      - "Value consistency and hand quality more."
+      - "Reduce lines that require excessive digging."
+
+  purple:
+    fact: "Required score scales even faster each Ante"
+    policy:
+      - "Tempo purchases become premium."
+      - "Pivot later and only with strong justification."
+
+  orange:
+    fact: "30% chance shop/pack jokers are Perishable"
+    policy:
+      - "Avoid slow-burn investments with delayed payoff."
+      - "Favor immediate and medium-term value."
+
+  gold:
+    fact: "30% chance shop/pack jokers are Rental"
+    policy:
+      - "Each purchase must justify ongoing upkeep."
+      - "Maintain stronger cash discipline."

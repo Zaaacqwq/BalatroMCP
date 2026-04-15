@@ -1,0 +1,3430 @@
+﻿{
+    "start":  null,
+    "end":  {
+                "jokers":  {
+
+                           },
+                "hand":  {
+
+                         },
+                "resources":  {
+                                  "round_score_target":  300,
+                                  "ante":  1,
+                                  "current_score":  0,
+                                  "chips":  0,
+                                  "money":  0,
+                                  "mult":  0
+                              },
+                "consumables":  {
+
+                                },
+                "blind":  {
+                              "name":  "Small Blind",
+                              "level":  1
+                          },
+                "schema_version":  "0.1.0",
+                "meta":  {
+                             "timestamp":  1775860042,
+                             "adapter_attached":  true,
+                             "source":  "smods_adapter"
+                         },
+                "phase":  "menu",
+                "shop":  {
+                             "pack_options":  {
+
+                                              },
+                             "items":  {
+
+                                       },
+                             "reroll_cost":  5
+                         },
+                "turn_index":  0,
+                "action_points":  {
+                                      "hands_left":  0,
+                                      "discards_left":  0
+                                  }
+            },
+    "legal_end":  {
+                      "action_type":  "continue",
+                      "params_schema":  {
+
+                                        }
+                  },
+    "log":  [
+                {
+                    "stage":  "bootstrap_continue",
+                    "i":  0,
+                    "phase":  "menu",
+                    "success":  true,
+                    "error":  null,
+                    "path":  "start_run"
+                },
+                {
+                    "stage":  "bootstrap_continue",
+                    "i":  1,
+                    "phase":  "menu",
+                    "success":  true,
+                    "error":  null,
+                    "path":  "start_run"
+                },
+                {
+                    "stage":  "bootstrap_continue",
+                    "i":  2,
+                    "phase":  "menu",
+                    "success":  true,
+                    "error":  null,
+                    "path":  "start_run"
+                },
+                {
+                    "stage":  "bootstrap_continue",
+                    "i":  3,
+                    "phase":  "menu",
+                    "success":  true,
+                    "error":  null,
+                    "path":  "start_run"
+                },
+                {
+                    "stage":  "bootstrap_continue",
+                    "i":  4,
+                    "phase":  "menu",
+                    "success":  true,
+                    "error":  null,
+                    "path":  "start_run"
+                },
+                {
+                    "stage":  "bootstrap_continue",
+                    "i":  5,
+                    "phase":  "menu",
+                    "success":  true,
+                    "error":  null,
+                    "path":  "start_run"
+                },
+                {
+                    "stage":  "bootstrap_continue",
+                    "i":  6,
+                    "phase":  "menu",
+                    "success":  true,
+                    "error":  null,
+                    "path":  "start_run"
+                },
+                {
+                    "stage":  "bootstrap_continue",
+                    "i":  7,
+                    "phase":  "menu",
+                    "success":  true,
+                    "error":  null,
+                    "path":  "start_run"
+                },
+                {
+                    "stage":  "bootstrap_continue",
+                    "i":  8,
+                    "phase":  "menu",
+                    "success":  true,
+                    "error":  null,
+                    "path":  "start_run"
+                },
+                {
+                    "stage":  "bootstrap_continue",
+                    "i":  9,
+                    "phase":  "menu",
+                    "success":  true,
+                    "error":  null,
+                    "path":  "start_run"
+                },
+                {
+                    "stage":  "bootstrap_continue",
+                    "i":  10,
+                    "phase":  "menu",
+                    "success":  true,
+                    "error":  null,
+                    "path":  "start_run"
+                },
+                {
+                    "stage":  "bootstrap_continue",
+                    "i":  11,
+                    "phase":  "menu",
+                    "success":  true,
+                    "error":  null,
+                    "path":  "start_run"
+                },
+                {
+                    "stage":  "bootstrap_continue",
+                    "i":  12,
+                    "phase":  "menu",
+                    "success":  true,
+                    "error":  null,
+                    "path":  "start_run"
+                },
+                {
+                    "stage":  "bootstrap_continue",
+                    "i":  13,
+                    "phase":  "menu",
+                    "success":  true,
+                    "error":  null,
+                    "path":  "start_run"
+                },
+                {
+                    "stage":  "bootstrap_continue",
+                    "i":  14,
+                    "phase":  "menu",
+                    "success":  true,
+                    "error":  null,
+                    "path":  "start_run"
+                },
+                {
+                    "stage":  "bootstrap_continue",
+                    "i":  15,
+                    "phase":  "menu",
+                    "success":  true,
+                    "error":  null,
+                    "path":  "start_run"
+                },
+                {
+                    "stage":  "bootstrap_continue",
+                    "i":  16,
+                    "phase":  "menu",
+                    "success":  true,
+                    "error":  null,
+                    "path":  "start_run"
+                },
+                {
+                    "stage":  "bootstrap_continue",
+                    "i":  17,
+                    "phase":  "menu",
+                    "success":  true,
+                    "error":  null,
+                    "path":  "start_run"
+                },
+                {
+                    "stage":  "bootstrap_continue",
+                    "i":  18,
+                    "phase":  "menu",
+                    "success":  true,
+                    "error":  null,
+                    "path":  "start_run"
+                },
+                {
+                    "stage":  "bootstrap_continue",
+                    "i":  19,
+                    "phase":  "menu",
+                    "success":  true,
+                    "error":  null,
+                    "path":  "start_run"
+                },
+                {
+                    "stage":  "bootstrap_continue",
+                    "i":  20,
+                    "phase":  "menu",
+                    "success":  true,
+                    "error":  null,
+                    "path":  "start_run"
+                },
+                {
+                    "stage":  "bootstrap_continue",
+                    "i":  21,
+                    "phase":  "menu",
+                    "success":  true,
+                    "error":  null,
+                    "path":  "start_run"
+                },
+                {
+                    "stage":  "bootstrap_continue",
+                    "i":  22,
+                    "phase":  "menu",
+                    "success":  true,
+                    "error":  null,
+                    "path":  "start_run"
+                },
+                {
+                    "stage":  "bootstrap_continue",
+                    "i":  23,
+                    "phase":  "menu",
+                    "success":  true,
+                    "error":  null,
+                    "path":  "start_run"
+                },
+                {
+                    "stage":  "bootstrap_continue",
+                    "i":  24,
+                    "phase":  "menu",
+                    "success":  true,
+                    "error":  null,
+                    "path":  "start_run"
+                },
+                {
+                    "stage":  "bootstrap_continue",
+                    "i":  25,
+                    "phase":  "menu",
+                    "success":  true,
+                    "error":  null,
+                    "path":  "start_run"
+                },
+                {
+                    "stage":  "bootstrap_continue",
+                    "i":  26,
+                    "phase":  "menu",
+                    "success":  true,
+                    "error":  null,
+                    "path":  "start_run"
+                },
+                {
+                    "stage":  "bootstrap_continue",
+                    "i":  27,
+                    "phase":  "menu",
+                    "success":  true,
+                    "error":  null,
+                    "path":  "start_run"
+                },
+                {
+                    "stage":  "bootstrap_continue",
+                    "i":  28,
+                    "phase":  "menu",
+                    "success":  true,
+                    "error":  null,
+                    "path":  "start_run"
+                },
+                {
+                    "stage":  "bootstrap_continue",
+                    "i":  29,
+                    "phase":  "menu",
+                    "success":  true,
+                    "error":  null,
+                    "path":  "start_run"
+                },
+                {
+                    "stage":  "bootstrap_continue",
+                    "i":  30,
+                    "phase":  "menu",
+                    "success":  true,
+                    "error":  null,
+                    "path":  "start_run"
+                },
+                {
+                    "stage":  "bootstrap_continue",
+                    "i":  31,
+                    "phase":  "menu",
+                    "success":  true,
+                    "error":  null,
+                    "path":  "start_run"
+                },
+                {
+                    "stage":  "bootstrap_continue",
+                    "i":  32,
+                    "phase":  "menu",
+                    "success":  true,
+                    "error":  null,
+                    "path":  "start_run"
+                },
+                {
+                    "stage":  "bootstrap_continue",
+                    "i":  33,
+                    "phase":  "menu",
+                    "success":  true,
+                    "error":  null,
+                    "path":  "start_run"
+                },
+                {
+                    "stage":  "bootstrap_continue",
+                    "i":  34,
+                    "phase":  "menu",
+                    "success":  true,
+                    "error":  null,
+                    "path":  "start_run"
+                },
+                {
+                    "stage":  "bootstrap_continue",
+                    "i":  35,
+                    "phase":  "menu",
+                    "success":  true,
+                    "error":  null,
+                    "path":  "start_run"
+                },
+                {
+                    "stage":  "bootstrap_continue",
+                    "i":  36,
+                    "phase":  "menu",
+                    "success":  true,
+                    "error":  null,
+                    "path":  "start_run"
+                },
+                {
+                    "stage":  "bootstrap_continue",
+                    "i":  37,
+                    "phase":  "menu",
+                    "success":  true,
+                    "error":  null,
+                    "path":  "start_run"
+                },
+                {
+                    "stage":  "bootstrap_continue",
+                    "i":  38,
+                    "phase":  "menu",
+                    "success":  true,
+                    "error":  null,
+                    "path":  "start_run"
+                },
+                {
+                    "stage":  "bootstrap_continue",
+                    "i":  39,
+                    "phase":  "menu",
+                    "success":  true,
+                    "error":  null,
+                    "path":  "start_run"
+                },
+                {
+                    "stage":  "bootstrap_continue",
+                    "i":  40,
+                    "phase":  "menu",
+                    "success":  true,
+                    "error":  null,
+                    "path":  "start_run"
+                },
+                {
+                    "stage":  "bootstrap_continue",
+                    "i":  41,
+                    "phase":  "menu",
+                    "success":  true,
+                    "error":  null,
+                    "path":  "start_run"
+                },
+                {
+                    "stage":  "bootstrap_continue",
+                    "i":  42,
+                    "phase":  "menu",
+                    "success":  true,
+                    "error":  null,
+                    "path":  "start_run"
+                },
+                {
+                    "stage":  "bootstrap_continue",
+                    "i":  43,
+                    "phase":  "menu",
+                    "success":  true,
+                    "error":  null,
+                    "path":  "start_run"
+                },
+                {
+                    "stage":  "bootstrap_continue",
+                    "i":  44,
+                    "phase":  "menu",
+                    "success":  true,
+                    "error":  null,
+                    "path":  "start_run"
+                },
+                {
+                    "stage":  "bootstrap_continue",
+                    "i":  45,
+                    "phase":  "menu",
+                    "success":  true,
+                    "error":  null,
+                    "path":  "start_run"
+                },
+                {
+                    "stage":  "bootstrap_continue",
+                    "i":  46,
+                    "phase":  "menu",
+                    "success":  true,
+                    "error":  null,
+                    "path":  "start_run"
+                },
+                {
+                    "stage":  "bootstrap_continue",
+                    "i":  47,
+                    "phase":  "menu",
+                    "success":  true,
+                    "error":  null,
+                    "path":  "start_run"
+                },
+                {
+                    "stage":  "bootstrap_continue",
+                    "i":  48,
+                    "phase":  "menu",
+                    "success":  true,
+                    "error":  null,
+                    "path":  "start_run"
+                },
+                {
+                    "stage":  "bootstrap_continue",
+                    "i":  49,
+                    "phase":  "menu",
+                    "success":  true,
+                    "error":  null,
+                    "path":  "start_run"
+                },
+                {
+                    "stage":  "bootstrap_continue",
+                    "i":  50,
+                    "phase":  "menu",
+                    "success":  true,
+                    "error":  null,
+                    "path":  "start_run"
+                },
+                {
+                    "stage":  "bootstrap_continue",
+                    "i":  51,
+                    "phase":  "menu",
+                    "success":  true,
+                    "error":  null,
+                    "path":  "start_run"
+                },
+                {
+                    "stage":  "bootstrap_continue",
+                    "i":  52,
+                    "phase":  "menu",
+                    "success":  true,
+                    "error":  null,
+                    "path":  "start_run"
+                },
+                {
+                    "stage":  "bootstrap_continue",
+                    "i":  53,
+                    "phase":  "menu",
+                    "success":  true,
+                    "error":  null,
+                    "path":  "start_run"
+                },
+                {
+                    "stage":  "bootstrap_continue",
+                    "i":  54,
+                    "phase":  "menu",
+                    "success":  true,
+                    "error":  null,
+                    "path":  "start_run"
+                },
+                {
+                    "stage":  "bootstrap_continue",
+                    "i":  55,
+                    "phase":  "menu",
+                    "success":  true,
+                    "error":  null,
+                    "path":  "start_run"
+                },
+                {
+                    "stage":  "bootstrap_continue",
+                    "i":  56,
+                    "phase":  "menu",
+                    "success":  true,
+                    "error":  null,
+                    "path":  "start_run"
+                },
+                {
+                    "stage":  "bootstrap_continue",
+                    "i":  57,
+                    "phase":  "menu",
+                    "success":  true,
+                    "error":  null,
+                    "path":  "start_run"
+                },
+                {
+                    "stage":  "bootstrap_continue",
+                    "i":  58,
+                    "phase":  "menu",
+                    "success":  true,
+                    "error":  null,
+                    "path":  "start_run"
+                },
+                {
+                    "stage":  "bootstrap_continue",
+                    "i":  59,
+                    "phase":  "menu",
+                    "success":  true,
+                    "error":  null,
+                    "path":  "start_run"
+                },
+                {
+                    "stage":  "prep_choose_option",
+                    "i":  0,
+                    "phase":  "blind_select",
+                    "continue_result":  {
+                                            "error":  "continue_not_available",
+                                            "action_type":  "continue",
+                                            "warnings":  [
+                                                             "7"
+                                                         ],
+                                            "success":  false
+                                        }
+                },
+                {
+                    "stage":  "prep_choose_option",
+                    "i":  1,
+                    "phase":  "blind_select",
+                    "continue_result":  {
+                                            "error":  "continue_not_available",
+                                            "action_type":  "continue",
+                                            "warnings":  [
+                                                             "7"
+                                                         ],
+                                            "success":  false
+                                        }
+                },
+                {
+                    "stage":  "prep_choose_option",
+                    "i":  2,
+                    "phase":  "blind_select",
+                    "continue_result":  {
+                                            "error":  "continue_not_available",
+                                            "action_type":  "continue",
+                                            "warnings":  [
+                                                             "7"
+                                                         ],
+                                            "success":  false
+                                        }
+                },
+                {
+                    "stage":  "prep_choose_option",
+                    "i":  3,
+                    "phase":  "blind_select",
+                    "continue_result":  {
+                                            "error":  "continue_not_available",
+                                            "action_type":  "continue",
+                                            "warnings":  [
+                                                             "7"
+                                                         ],
+                                            "success":  false
+                                        }
+                },
+                {
+                    "stage":  "prep_choose_option",
+                    "i":  4,
+                    "phase":  "blind_select",
+                    "continue_result":  {
+                                            "error":  "continue_not_available",
+                                            "action_type":  "continue",
+                                            "warnings":  [
+                                                             "7"
+                                                         ],
+                                            "success":  false
+                                        }
+                },
+                {
+                    "stage":  "prep_choose_option",
+                    "i":  5,
+                    "phase":  "blind_select",
+                    "continue_result":  {
+                                            "error":  "continue_not_available",
+                                            "action_type":  "continue",
+                                            "warnings":  [
+                                                             "7"
+                                                         ],
+                                            "success":  false
+                                        }
+                },
+                {
+                    "stage":  "prep_choose_option",
+                    "i":  6,
+                    "phase":  "blind_select",
+                    "continue_result":  {
+                                            "error":  "continue_not_available",
+                                            "action_type":  "continue",
+                                            "warnings":  [
+                                                             "7"
+                                                         ],
+                                            "success":  false
+                                        }
+                },
+                {
+                    "stage":  "prep_choose_option",
+                    "i":  7,
+                    "phase":  "blind_select",
+                    "continue_result":  {
+                                            "error":  "continue_not_available",
+                                            "action_type":  "continue",
+                                            "warnings":  [
+                                                             "7"
+                                                         ],
+                                            "success":  false
+                                        }
+                },
+                {
+                    "stage":  "prep_choose_option",
+                    "i":  8,
+                    "phase":  "blind_select",
+                    "continue_result":  {
+                                            "error":  "continue_not_available",
+                                            "action_type":  "continue",
+                                            "warnings":  [
+                                                             "7"
+                                                         ],
+                                            "success":  false
+                                        }
+                },
+                {
+                    "stage":  "prep_choose_option",
+                    "i":  9,
+                    "phase":  "blind_select",
+                    "continue_result":  {
+                                            "error":  "continue_not_available",
+                                            "action_type":  "continue",
+                                            "warnings":  [
+                                                             "7"
+                                                         ],
+                                            "success":  false
+                                        }
+                },
+                {
+                    "stage":  "prep_choose_option",
+                    "i":  10,
+                    "phase":  "blind_select",
+                    "continue_result":  {
+                                            "error":  "continue_not_available",
+                                            "action_type":  "continue",
+                                            "warnings":  [
+                                                             "7"
+                                                         ],
+                                            "success":  false
+                                        }
+                },
+                {
+                    "stage":  "prep_choose_option",
+                    "i":  11,
+                    "phase":  "blind_select",
+                    "continue_result":  {
+                                            "error":  "continue_not_available",
+                                            "action_type":  "continue",
+                                            "warnings":  [
+                                                             "7"
+                                                         ],
+                                            "success":  false
+                                        }
+                },
+                {
+                    "stage":  "prep_choose_option",
+                    "i":  12,
+                    "phase":  "blind_select",
+                    "continue_result":  {
+                                            "error":  "continue_not_available",
+                                            "action_type":  "continue",
+                                            "warnings":  [
+                                                             "7"
+                                                         ],
+                                            "success":  false
+                                        }
+                },
+                {
+                    "stage":  "prep_choose_option",
+                    "i":  13,
+                    "phase":  "blind_select",
+                    "continue_result":  {
+                                            "error":  "continue_not_available",
+                                            "action_type":  "continue",
+                                            "warnings":  [
+                                                             "7"
+                                                         ],
+                                            "success":  false
+                                        }
+                },
+                {
+                    "stage":  "prep_choose_option",
+                    "i":  14,
+                    "phase":  "blind_select",
+                    "continue_result":  {
+                                            "error":  "continue_not_available",
+                                            "action_type":  "continue",
+                                            "warnings":  [
+                                                             "7"
+                                                         ],
+                                            "success":  false
+                                        }
+                },
+                {
+                    "stage":  "prep_choose_option",
+                    "i":  15,
+                    "phase":  "blind_select",
+                    "continue_result":  {
+                                            "error":  "continue_not_available",
+                                            "action_type":  "continue",
+                                            "warnings":  [
+                                                             "7"
+                                                         ],
+                                            "success":  false
+                                        }
+                },
+                {
+                    "stage":  "prep_choose_option",
+                    "i":  16,
+                    "phase":  "blind_select",
+                    "continue_result":  {
+                                            "error":  "continue_not_available",
+                                            "action_type":  "continue",
+                                            "warnings":  [
+                                                             "7"
+                                                         ],
+                                            "success":  false
+                                        }
+                },
+                {
+                    "stage":  "prep_choose_option",
+                    "i":  17,
+                    "phase":  "blind_select",
+                    "continue_result":  {
+                                            "error":  "continue_not_available",
+                                            "action_type":  "continue",
+                                            "warnings":  [
+                                                             "7"
+                                                         ],
+                                            "success":  false
+                                        }
+                },
+                {
+                    "stage":  "prep_choose_option",
+                    "i":  18,
+                    "phase":  "blind_select",
+                    "continue_result":  {
+                                            "error":  "continue_not_available",
+                                            "action_type":  "continue",
+                                            "warnings":  [
+                                                             "7"
+                                                         ],
+                                            "success":  false
+                                        }
+                },
+                {
+                    "stage":  "prep_choose_option",
+                    "i":  19,
+                    "phase":  "blind_select",
+                    "continue_result":  {
+                                            "error":  "continue_not_available",
+                                            "action_type":  "continue",
+                                            "warnings":  [
+                                                             "7"
+                                                         ],
+                                            "success":  false
+                                        }
+                },
+                {
+                    "stage":  "prep_choose_option",
+                    "i":  20,
+                    "phase":  "blind_select",
+                    "continue_result":  {
+                                            "error":  "continue_not_available",
+                                            "action_type":  "continue",
+                                            "warnings":  [
+                                                             "7"
+                                                         ],
+                                            "success":  false
+                                        }
+                },
+                {
+                    "stage":  "prep_choose_option",
+                    "i":  21,
+                    "phase":  "blind_select",
+                    "continue_result":  {
+                                            "error":  "continue_not_available",
+                                            "action_type":  "continue",
+                                            "warnings":  [
+                                                             "7"
+                                                         ],
+                                            "success":  false
+                                        }
+                },
+                {
+                    "stage":  "prep_choose_option",
+                    "i":  22,
+                    "phase":  "blind_select",
+                    "continue_result":  {
+                                            "error":  "continue_not_available",
+                                            "action_type":  "continue",
+                                            "warnings":  [
+                                                             "7"
+                                                         ],
+                                            "success":  false
+                                        }
+                },
+                {
+                    "stage":  "prep_choose_option",
+                    "i":  23,
+                    "phase":  "blind_select",
+                    "continue_result":  {
+                                            "error":  "continue_not_available",
+                                            "action_type":  "continue",
+                                            "warnings":  [
+                                                             "7"
+                                                         ],
+                                            "success":  false
+                                        }
+                },
+                {
+                    "stage":  "prep_choose_option",
+                    "i":  24,
+                    "phase":  "blind_select",
+                    "continue_result":  {
+                                            "error":  "continue_not_available",
+                                            "action_type":  "continue",
+                                            "warnings":  [
+                                                             "7"
+                                                         ],
+                                            "success":  false
+                                        }
+                },
+                {
+                    "stage":  "prep_choose_option",
+                    "i":  25,
+                    "phase":  "blind_select",
+                    "continue_result":  {
+                                            "error":  "continue_not_available",
+                                            "action_type":  "continue",
+                                            "warnings":  [
+                                                             "7"
+                                                         ],
+                                            "success":  false
+                                        }
+                },
+                {
+                    "stage":  "prep_choose_option",
+                    "i":  26,
+                    "phase":  "blind_select",
+                    "continue_result":  {
+                                            "error":  "continue_not_available",
+                                            "action_type":  "continue",
+                                            "warnings":  [
+                                                             "7"
+                                                         ],
+                                            "success":  false
+                                        }
+                },
+                {
+                    "stage":  "prep_choose_option",
+                    "i":  27,
+                    "phase":  "blind_select",
+                    "continue_result":  {
+                                            "error":  "continue_not_available",
+                                            "action_type":  "continue",
+                                            "warnings":  [
+                                                             "7"
+                                                         ],
+                                            "success":  false
+                                        }
+                },
+                {
+                    "stage":  "prep_choose_option",
+                    "i":  28,
+                    "phase":  "blind_select",
+                    "continue_result":  {
+                                            "error":  "continue_not_available",
+                                            "action_type":  "continue",
+                                            "warnings":  [
+                                                             "7"
+                                                         ],
+                                            "success":  false
+                                        }
+                },
+                {
+                    "stage":  "prep_choose_option",
+                    "i":  29,
+                    "phase":  "blind_select",
+                    "continue_result":  {
+                                            "error":  "continue_not_available",
+                                            "action_type":  "continue",
+                                            "warnings":  [
+                                                             "7"
+                                                         ],
+                                            "success":  false
+                                        }
+                },
+                {
+                    "stage":  "prep_choose_option",
+                    "i":  30,
+                    "phase":  "blind_select",
+                    "continue_result":  {
+                                            "error":  "continue_not_available",
+                                            "action_type":  "continue",
+                                            "warnings":  [
+                                                             "7"
+                                                         ],
+                                            "success":  false
+                                        }
+                },
+                {
+                    "stage":  "prep_choose_option",
+                    "i":  31,
+                    "phase":  "blind_select",
+                    "continue_result":  {
+                                            "error":  "continue_not_available",
+                                            "action_type":  "continue",
+                                            "warnings":  [
+                                                             "7"
+                                                         ],
+                                            "success":  false
+                                        }
+                },
+                {
+                    "stage":  "prep_choose_option",
+                    "i":  32,
+                    "phase":  "blind_select",
+                    "continue_result":  {
+                                            "error":  "continue_not_available",
+                                            "action_type":  "continue",
+                                            "warnings":  [
+                                                             "7"
+                                                         ],
+                                            "success":  false
+                                        }
+                },
+                {
+                    "stage":  "prep_choose_option",
+                    "i":  33,
+                    "phase":  "blind_select",
+                    "continue_result":  {
+                                            "error":  "continue_not_available",
+                                            "action_type":  "continue",
+                                            "warnings":  [
+                                                             "7"
+                                                         ],
+                                            "success":  false
+                                        }
+                },
+                {
+                    "stage":  "prep_choose_option",
+                    "i":  34,
+                    "phase":  "blind_select",
+                    "continue_result":  {
+                                            "error":  "continue_not_available",
+                                            "action_type":  "continue",
+                                            "warnings":  [
+                                                             "7"
+                                                         ],
+                                            "success":  false
+                                        }
+                },
+                {
+                    "stage":  "prep_choose_option",
+                    "i":  35,
+                    "phase":  "blind_select",
+                    "continue_result":  {
+                                            "error":  "continue_not_available",
+                                            "action_type":  "continue",
+                                            "warnings":  [
+                                                             "7"
+                                                         ],
+                                            "success":  false
+                                        }
+                },
+                {
+                    "stage":  "prep_choose_option",
+                    "i":  36,
+                    "phase":  "blind_select",
+                    "continue_result":  {
+                                            "error":  "continue_not_available",
+                                            "action_type":  "continue",
+                                            "warnings":  [
+                                                             "7"
+                                                         ],
+                                            "success":  false
+                                        }
+                },
+                {
+                    "stage":  "prep_choose_option",
+                    "i":  37,
+                    "phase":  "blind_select",
+                    "continue_result":  {
+                                            "error":  "continue_not_available",
+                                            "action_type":  "continue",
+                                            "warnings":  [
+                                                             "7"
+                                                         ],
+                                            "success":  false
+                                        }
+                },
+                {
+                    "stage":  "prep_choose_option",
+                    "i":  38,
+                    "phase":  "blind_select",
+                    "continue_result":  {
+                                            "error":  "continue_not_available",
+                                            "action_type":  "continue",
+                                            "warnings":  [
+                                                             "7"
+                                                         ],
+                                            "success":  false
+                                        }
+                },
+                {
+                    "stage":  "prep_choose_option",
+                    "i":  39,
+                    "phase":  "blind_select",
+                    "continue_result":  {
+                                            "error":  "continue_not_available",
+                                            "action_type":  "continue",
+                                            "warnings":  [
+                                                             "7"
+                                                         ],
+                                            "success":  false
+                                        }
+                },
+                {
+                    "stage":  "prep_choose_option",
+                    "i":  40,
+                    "phase":  "blind_select",
+                    "continue_result":  {
+                                            "error":  "continue_not_available",
+                                            "action_type":  "continue",
+                                            "warnings":  [
+                                                             "7"
+                                                         ],
+                                            "success":  false
+                                        }
+                },
+                {
+                    "stage":  "prep_choose_option",
+                    "i":  41,
+                    "phase":  "blind_select",
+                    "continue_result":  {
+                                            "error":  "continue_not_available",
+                                            "action_type":  "continue",
+                                            "warnings":  [
+                                                             "7"
+                                                         ],
+                                            "success":  false
+                                        }
+                },
+                {
+                    "stage":  "prep_choose_option",
+                    "i":  42,
+                    "phase":  "blind_select",
+                    "continue_result":  {
+                                            "error":  "continue_not_available",
+                                            "action_type":  "continue",
+                                            "warnings":  [
+                                                             "7"
+                                                         ],
+                                            "success":  false
+                                        }
+                },
+                {
+                    "stage":  "prep_choose_option",
+                    "i":  43,
+                    "phase":  "blind_select",
+                    "continue_result":  {
+                                            "error":  "continue_not_available",
+                                            "action_type":  "continue",
+                                            "warnings":  [
+                                                             "7"
+                                                         ],
+                                            "success":  false
+                                        }
+                },
+                {
+                    "stage":  "prep_choose_option",
+                    "i":  44,
+                    "phase":  "blind_select",
+                    "continue_result":  {
+                                            "error":  "continue_not_available",
+                                            "action_type":  "continue",
+                                            "warnings":  [
+                                                             "7"
+                                                         ],
+                                            "success":  false
+                                        }
+                },
+                {
+                    "stage":  "prep_choose_option",
+                    "i":  45,
+                    "phase":  "blind_select",
+                    "continue_result":  {
+                                            "error":  "continue_not_available",
+                                            "action_type":  "continue",
+                                            "warnings":  [
+                                                             "7"
+                                                         ],
+                                            "success":  false
+                                        }
+                },
+                {
+                    "stage":  "prep_choose_option",
+                    "i":  46,
+                    "phase":  "blind_select",
+                    "continue_result":  {
+                                            "error":  "continue_not_available",
+                                            "action_type":  "continue",
+                                            "warnings":  [
+                                                             "7"
+                                                         ],
+                                            "success":  false
+                                        }
+                },
+                {
+                    "stage":  "prep_choose_option",
+                    "i":  47,
+                    "phase":  "blind_select",
+                    "continue_result":  {
+                                            "error":  "continue_not_available",
+                                            "action_type":  "continue",
+                                            "warnings":  [
+                                                             "7"
+                                                         ],
+                                            "success":  false
+                                        }
+                },
+                {
+                    "stage":  "prep_choose_option",
+                    "i":  48,
+                    "phase":  "blind_select",
+                    "continue_result":  {
+                                            "error":  "continue_not_available",
+                                            "action_type":  "continue",
+                                            "warnings":  [
+                                                             "7"
+                                                         ],
+                                            "success":  false
+                                        }
+                },
+                {
+                    "stage":  "prep_choose_option",
+                    "i":  49,
+                    "phase":  "blind_select",
+                    "continue_result":  {
+                                            "error":  "continue_not_available",
+                                            "action_type":  "continue",
+                                            "warnings":  [
+                                                             "7"
+                                                         ],
+                                            "success":  false
+                                        }
+                },
+                {
+                    "stage":  "prep_choose_option",
+                    "i":  50,
+                    "phase":  "blind_select",
+                    "continue_result":  {
+                                            "error":  "continue_not_available",
+                                            "action_type":  "continue",
+                                            "warnings":  [
+                                                             "7"
+                                                         ],
+                                            "success":  false
+                                        }
+                },
+                {
+                    "stage":  "prep_choose_option",
+                    "i":  51,
+                    "phase":  "blind_select",
+                    "continue_result":  {
+                                            "error":  "continue_not_available",
+                                            "action_type":  "continue",
+                                            "warnings":  [
+                                                             "7"
+                                                         ],
+                                            "success":  false
+                                        }
+                },
+                {
+                    "stage":  "prep_choose_option",
+                    "i":  52,
+                    "phase":  "blind_select",
+                    "continue_result":  {
+                                            "error":  "continue_not_available",
+                                            "action_type":  "continue",
+                                            "warnings":  [
+                                                             "7"
+                                                         ],
+                                            "success":  false
+                                        }
+                },
+                {
+                    "stage":  "prep_choose_option",
+                    "i":  53,
+                    "phase":  "blind_select",
+                    "continue_result":  {
+                                            "error":  "continue_not_available",
+                                            "action_type":  "continue",
+                                            "warnings":  [
+                                                             "7"
+                                                         ],
+                                            "success":  false
+                                        }
+                },
+                {
+                    "stage":  "prep_choose_option",
+                    "i":  54,
+                    "phase":  "blind_select",
+                    "continue_result":  {
+                                            "error":  "continue_not_available",
+                                            "action_type":  "continue",
+                                            "warnings":  [
+                                                             "7"
+                                                         ],
+                                            "success":  false
+                                        }
+                },
+                {
+                    "stage":  "prep_choose_option",
+                    "i":  55,
+                    "phase":  "blind_select",
+                    "continue_result":  {
+                                            "error":  "continue_not_available",
+                                            "action_type":  "continue",
+                                            "warnings":  [
+                                                             "7"
+                                                         ],
+                                            "success":  false
+                                        }
+                },
+                {
+                    "stage":  "prep_choose_option",
+                    "i":  56,
+                    "phase":  "blind_select",
+                    "continue_result":  {
+                                            "error":  "continue_not_available",
+                                            "action_type":  "continue",
+                                            "warnings":  [
+                                                             "7"
+                                                         ],
+                                            "success":  false
+                                        }
+                },
+                {
+                    "stage":  "prep_choose_option",
+                    "i":  57,
+                    "phase":  "blind_select",
+                    "continue_result":  {
+                                            "error":  "continue_not_available",
+                                            "action_type":  "continue",
+                                            "warnings":  [
+                                                             "7"
+                                                         ],
+                                            "success":  false
+                                        }
+                },
+                {
+                    "stage":  "prep_choose_option",
+                    "i":  58,
+                    "phase":  "blind_select",
+                    "continue_result":  {
+                                            "error":  "continue_not_available",
+                                            "action_type":  "continue",
+                                            "warnings":  [
+                                                             "7"
+                                                         ],
+                                            "success":  false
+                                        }
+                },
+                {
+                    "stage":  "prep_choose_option",
+                    "i":  59,
+                    "phase":  "blind_select",
+                    "continue_result":  {
+                                            "error":  "continue_not_available",
+                                            "action_type":  "continue",
+                                            "warnings":  [
+                                                             "7"
+                                                         ],
+                                            "success":  false
+                                        }
+                },
+                {
+                    "stage":  "prep_play_continue",
+                    "i":  0,
+                    "phase":  "blind_select",
+                    "result":  {
+                                   "error":  "continue_not_available",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "7"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_play_continue",
+                    "i":  1,
+                    "phase":  "blind_select",
+                    "result":  {
+                                   "error":  "continue_not_available",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "7"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_play_continue",
+                    "i":  2,
+                    "phase":  "blind_select",
+                    "result":  {
+                                   "error":  "continue_not_available",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "7"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_play_continue",
+                    "i":  3,
+                    "phase":  "blind_select",
+                    "result":  {
+                                   "error":  "continue_not_available",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "7"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_play_continue",
+                    "i":  4,
+                    "phase":  "blind_select",
+                    "result":  {
+                                   "error":  "continue_not_available",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "7"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_play_continue",
+                    "i":  5,
+                    "phase":  "blind_select",
+                    "result":  {
+                                   "error":  "continue_not_available",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "7"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_play_continue",
+                    "i":  6,
+                    "phase":  "blind_select",
+                    "result":  {
+                                   "error":  "continue_not_available",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "7"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_play_continue",
+                    "i":  7,
+                    "phase":  "blind_select",
+                    "result":  {
+                                   "error":  "continue_not_available",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "7"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_play_continue",
+                    "i":  8,
+                    "phase":  "blind_select",
+                    "result":  {
+                                   "error":  "continue_not_available",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "7"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_play_continue",
+                    "i":  9,
+                    "phase":  "blind_select",
+                    "result":  {
+                                   "error":  "continue_not_available",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "7"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_play_continue",
+                    "i":  10,
+                    "phase":  "blind_select",
+                    "result":  {
+                                   "error":  "continue_not_available",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "7"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_play_continue",
+                    "i":  11,
+                    "phase":  "blind_select",
+                    "result":  {
+                                   "error":  "continue_not_available",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "-1"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_play_continue",
+                    "i":  12,
+                    "phase":  "menu",
+                    "result":  null
+                },
+                {
+                    "stage":  "prep_play_continue",
+                    "i":  13,
+                    "phase":  "menu",
+                    "result":  {
+                                   "path":  "start_run",
+                                   "action_type":  "continue",
+                                   "warnings":  {
+
+                                                },
+                                   "success":  true
+                               }
+                },
+                {
+                    "stage":  "prep_play_continue",
+                    "i":  14,
+                    "phase":  "menu",
+                    "result":  {
+                                   "path":  "start_run",
+                                   "action_type":  "continue",
+                                   "warnings":  {
+
+                                                },
+                                   "success":  true
+                               }
+                },
+                {
+                    "stage":  "prep_play_continue",
+                    "i":  15,
+                    "phase":  "menu",
+                    "result":  {
+                                   "path":  "start_run",
+                                   "action_type":  "continue",
+                                   "warnings":  {
+
+                                                },
+                                   "success":  true
+                               }
+                },
+                {
+                    "stage":  "prep_play_continue",
+                    "i":  16,
+                    "phase":  "menu",
+                    "result":  {
+                                   "path":  "start_run",
+                                   "action_type":  "continue",
+                                   "warnings":  {
+
+                                                },
+                                   "success":  true
+                               }
+                },
+                {
+                    "stage":  "prep_play_continue",
+                    "i":  17,
+                    "phase":  "menu",
+                    "result":  {
+                                   "path":  "start_run",
+                                   "action_type":  "continue",
+                                   "warnings":  {
+
+                                                },
+                                   "success":  true
+                               }
+                },
+                {
+                    "stage":  "prep_play_continue",
+                    "i":  18,
+                    "phase":  "menu",
+                    "result":  {
+                                   "path":  "start_run",
+                                   "action_type":  "continue",
+                                   "warnings":  {
+
+                                                },
+                                   "success":  true
+                               }
+                },
+                {
+                    "stage":  "prep_play_continue",
+                    "i":  19,
+                    "phase":  "menu",
+                    "result":  {
+                                   "path":  "start_run",
+                                   "action_type":  "continue",
+                                   "warnings":  {
+
+                                                },
+                                   "success":  true
+                               }
+                },
+                {
+                    "stage":  "prep_play_continue",
+                    "i":  20,
+                    "phase":  "menu",
+                    "result":  {
+                                   "path":  "start_run",
+                                   "action_type":  "continue",
+                                   "warnings":  {
+
+                                                },
+                                   "success":  true
+                               }
+                },
+                {
+                    "stage":  "prep_play_continue",
+                    "i":  21,
+                    "phase":  "menu",
+                    "result":  {
+                                   "path":  "start_run",
+                                   "action_type":  "continue",
+                                   "warnings":  {
+
+                                                },
+                                   "success":  true
+                               }
+                },
+                {
+                    "stage":  "prep_play_continue",
+                    "i":  22,
+                    "phase":  "menu",
+                    "result":  {
+                                   "path":  "start_run",
+                                   "action_type":  "continue",
+                                   "warnings":  {
+
+                                                },
+                                   "success":  true
+                               }
+                },
+                {
+                    "stage":  "prep_play_continue",
+                    "i":  23,
+                    "phase":  "menu",
+                    "result":  {
+                                   "path":  "start_run",
+                                   "action_type":  "continue",
+                                   "warnings":  {
+
+                                                },
+                                   "success":  true
+                               }
+                },
+                {
+                    "stage":  "prep_play_continue",
+                    "i":  24,
+                    "phase":  "menu",
+                    "result":  {
+                                   "path":  "start_run",
+                                   "action_type":  "continue",
+                                   "warnings":  {
+
+                                                },
+                                   "success":  true
+                               }
+                },
+                {
+                    "stage":  "prep_play_continue",
+                    "i":  25,
+                    "phase":  "menu",
+                    "result":  {
+                                   "path":  "start_run",
+                                   "action_type":  "continue",
+                                   "warnings":  {
+
+                                                },
+                                   "success":  true
+                               }
+                },
+                {
+                    "stage":  "prep_play_continue",
+                    "i":  26,
+                    "phase":  "menu",
+                    "result":  {
+                                   "path":  "start_run",
+                                   "action_type":  "continue",
+                                   "warnings":  {
+
+                                                },
+                                   "success":  true
+                               }
+                },
+                {
+                    "stage":  "prep_play_continue",
+                    "i":  27,
+                    "phase":  "menu",
+                    "result":  {
+                                   "path":  "start_run",
+                                   "action_type":  "continue",
+                                   "warnings":  {
+
+                                                },
+                                   "success":  true
+                               }
+                },
+                {
+                    "stage":  "prep_play_continue",
+                    "i":  28,
+                    "phase":  "menu",
+                    "result":  {
+                                   "path":  "start_run",
+                                   "action_type":  "continue",
+                                   "warnings":  {
+
+                                                },
+                                   "success":  true
+                               }
+                },
+                {
+                    "stage":  "prep_play_continue",
+                    "i":  29,
+                    "phase":  "menu",
+                    "result":  {
+                                   "path":  "start_run",
+                                   "action_type":  "continue",
+                                   "warnings":  {
+
+                                                },
+                                   "success":  true
+                               }
+                },
+                {
+                    "stage":  "prep_play_continue",
+                    "i":  30,
+                    "phase":  "menu",
+                    "result":  {
+                                   "path":  "start_run",
+                                   "action_type":  "continue",
+                                   "warnings":  {
+
+                                                },
+                                   "success":  true
+                               }
+                },
+                {
+                    "stage":  "prep_play_continue",
+                    "i":  31,
+                    "phase":  "menu",
+                    "result":  {
+                                   "path":  "start_run",
+                                   "action_type":  "continue",
+                                   "warnings":  {
+
+                                                },
+                                   "success":  true
+                               }
+                },
+                {
+                    "stage":  "prep_play_continue",
+                    "i":  32,
+                    "phase":  "menu",
+                    "result":  {
+                                   "path":  "start_run",
+                                   "action_type":  "continue",
+                                   "warnings":  {
+
+                                                },
+                                   "success":  true
+                               }
+                },
+                {
+                    "stage":  "prep_play_continue",
+                    "i":  33,
+                    "phase":  "menu",
+                    "result":  {
+                                   "path":  "start_run",
+                                   "action_type":  "continue",
+                                   "warnings":  {
+
+                                                },
+                                   "success":  true
+                               }
+                },
+                {
+                    "stage":  "prep_play_continue",
+                    "i":  34,
+                    "phase":  "menu",
+                    "result":  {
+                                   "path":  "start_run",
+                                   "action_type":  "continue",
+                                   "warnings":  {
+
+                                                },
+                                   "success":  true
+                               }
+                },
+                {
+                    "stage":  "prep_play_continue",
+                    "i":  35,
+                    "phase":  "menu",
+                    "result":  {
+                                   "path":  "start_run",
+                                   "action_type":  "continue",
+                                   "warnings":  {
+
+                                                },
+                                   "success":  true
+                               }
+                },
+                {
+                    "stage":  "prep_play_continue",
+                    "i":  36,
+                    "phase":  "menu",
+                    "result":  {
+                                   "path":  "start_run",
+                                   "action_type":  "continue",
+                                   "warnings":  {
+
+                                                },
+                                   "success":  true
+                               }
+                },
+                {
+                    "stage":  "prep_play_continue",
+                    "i":  37,
+                    "phase":  "menu",
+                    "result":  {
+                                   "path":  "start_run",
+                                   "action_type":  "continue",
+                                   "warnings":  {
+
+                                                },
+                                   "success":  true
+                               }
+                },
+                {
+                    "stage":  "prep_play_continue",
+                    "i":  38,
+                    "phase":  "menu",
+                    "result":  {
+                                   "path":  "start_run",
+                                   "action_type":  "continue",
+                                   "warnings":  {
+
+                                                },
+                                   "success":  true
+                               }
+                },
+                {
+                    "stage":  "prep_play_continue",
+                    "i":  39,
+                    "phase":  "menu",
+                    "result":  {
+                                   "path":  "start_run",
+                                   "action_type":  "continue",
+                                   "warnings":  {
+
+                                                },
+                                   "success":  true
+                               }
+                },
+                {
+                    "stage":  "prep_play_continue",
+                    "i":  40,
+                    "phase":  "menu",
+                    "result":  {
+                                   "path":  "start_run",
+                                   "action_type":  "continue",
+                                   "warnings":  {
+
+                                                },
+                                   "success":  true
+                               }
+                },
+                {
+                    "stage":  "prep_play_continue",
+                    "i":  41,
+                    "phase":  "menu",
+                    "result":  {
+                                   "path":  "start_run",
+                                   "action_type":  "continue",
+                                   "warnings":  {
+
+                                                },
+                                   "success":  true
+                               }
+                },
+                {
+                    "stage":  "prep_play_continue",
+                    "i":  42,
+                    "phase":  "menu",
+                    "result":  {
+                                   "path":  "start_run",
+                                   "action_type":  "continue",
+                                   "warnings":  {
+
+                                                },
+                                   "success":  true
+                               }
+                },
+                {
+                    "stage":  "prep_play_continue",
+                    "i":  43,
+                    "phase":  "menu",
+                    "result":  {
+                                   "path":  "start_run",
+                                   "action_type":  "continue",
+                                   "warnings":  {
+
+                                                },
+                                   "success":  true
+                               }
+                },
+                {
+                    "stage":  "prep_play_continue",
+                    "i":  44,
+                    "phase":  "menu",
+                    "result":  {
+                                   "path":  "start_run",
+                                   "action_type":  "continue",
+                                   "warnings":  {
+
+                                                },
+                                   "success":  true
+                               }
+                },
+                {
+                    "stage":  "prep_play_continue",
+                    "i":  45,
+                    "phase":  "menu",
+                    "result":  {
+                                   "error":  "continue_not_available",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "7"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_play_continue",
+                    "i":  46,
+                    "phase":  "blind_select",
+                    "result":  {
+                                   "error":  "continue_not_available",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "7"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_play_continue",
+                    "i":  47,
+                    "phase":  "blind_select",
+                    "result":  {
+                                   "error":  "continue_not_available",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "7"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_play_continue",
+                    "i":  48,
+                    "phase":  "blind_select",
+                    "result":  {
+                                   "error":  "continue_not_available",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "7"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_play_continue",
+                    "i":  49,
+                    "phase":  "blind_select",
+                    "result":  {
+                                   "error":  "continue_not_available",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "7"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_play_continue",
+                    "i":  50,
+                    "phase":  "blind_select",
+                    "result":  {
+                                   "error":  "continue_not_available",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "7"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_play_continue",
+                    "i":  51,
+                    "phase":  "blind_select",
+                    "result":  {
+                                   "error":  "continue_not_available",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "7"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_play_continue",
+                    "i":  52,
+                    "phase":  "blind_select",
+                    "result":  {
+                                   "error":  "continue_not_available",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "7"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_play_continue",
+                    "i":  53,
+                    "phase":  "blind_select",
+                    "result":  {
+                                   "error":  "continue_not_available",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "7"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_play_continue",
+                    "i":  54,
+                    "phase":  "blind_select",
+                    "result":  {
+                                   "error":  "continue_not_available",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "7"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_play_continue",
+                    "i":  55,
+                    "phase":  "blind_select",
+                    "result":  {
+                                   "error":  "continue_not_available",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "7"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_play_continue",
+                    "i":  56,
+                    "phase":  "blind_select",
+                    "result":  {
+                                   "error":  "continue_not_available",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "7"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_play_continue",
+                    "i":  57,
+                    "phase":  "blind_select",
+                    "result":  {
+                                   "error":  "continue_not_available",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "7"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_play_continue",
+                    "i":  58,
+                    "phase":  "blind_select",
+                    "result":  {
+                                   "error":  "continue_not_available",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "7"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_play_continue",
+                    "i":  59,
+                    "phase":  "blind_select",
+                    "result":  {
+                                   "error":  "continue_not_available",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "7"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_play_continue",
+                    "i":  60,
+                    "phase":  "blind_select",
+                    "result":  {
+                                   "error":  "continue_not_available",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "7"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_play_continue",
+                    "i":  61,
+                    "phase":  "blind_select",
+                    "result":  {
+                                   "error":  "continue_not_available",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "7"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_play_continue",
+                    "i":  62,
+                    "phase":  "blind_select",
+                    "result":  {
+                                   "error":  "continue_not_available",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "7"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_play_continue",
+                    "i":  63,
+                    "phase":  "blind_select",
+                    "result":  {
+                                   "error":  "continue_not_available",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "7"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_play_continue",
+                    "i":  64,
+                    "phase":  "blind_select",
+                    "result":  {
+                                   "error":  "continue_not_available",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "7"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_play_continue",
+                    "i":  65,
+                    "phase":  "blind_select",
+                    "result":  {
+                                   "error":  "continue_not_available",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "7"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_play_continue",
+                    "i":  66,
+                    "phase":  "blind_select",
+                    "result":  {
+                                   "error":  "continue_not_available",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "7"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_play_continue",
+                    "i":  67,
+                    "phase":  "blind_select",
+                    "result":  {
+                                   "error":  "continue_not_available",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "7"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_play_continue",
+                    "i":  68,
+                    "phase":  "blind_select",
+                    "result":  {
+                                   "error":  "continue_not_available",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "7"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_play_continue",
+                    "i":  69,
+                    "phase":  "blind_select",
+                    "result":  {
+                                   "error":  "continue_not_available",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "7"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_play_continue",
+                    "i":  70,
+                    "phase":  "blind_select",
+                    "result":  {
+                                   "error":  "continue_not_available",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "7"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_play_continue",
+                    "i":  71,
+                    "phase":  "blind_select",
+                    "result":  {
+                                   "error":  "continue_not_available",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "7"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_play_continue",
+                    "i":  72,
+                    "phase":  "blind_select",
+                    "result":  {
+                                   "error":  "continue_not_available",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "7"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_play_continue",
+                    "i":  73,
+                    "phase":  "blind_select",
+                    "result":  {
+                                   "error":  "continue_not_available",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "7"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_play_continue",
+                    "i":  74,
+                    "phase":  "blind_select",
+                    "result":  {
+                                   "error":  "continue_not_available",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "7"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_play_continue",
+                    "i":  75,
+                    "phase":  "blind_select",
+                    "result":  {
+                                   "error":  "continue_not_available",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "7"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_play_continue",
+                    "i":  76,
+                    "phase":  "blind_select",
+                    "result":  {
+                                   "error":  "continue_not_available",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "7"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_play_continue",
+                    "i":  77,
+                    "phase":  "blind_select",
+                    "result":  {
+                                   "error":  "continue_not_available",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "7"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_play_continue",
+                    "i":  78,
+                    "phase":  "blind_select",
+                    "result":  {
+                                   "error":  "continue_not_available",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "7"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_play_continue",
+                    "i":  79,
+                    "phase":  "blind_select",
+                    "result":  {
+                                   "error":  "continue_not_available",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "7"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_discard",
+                    "i":  0,
+                    "phase":  "blind_select",
+                    "result":  {
+                                   "error":  "continue_not_available",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "7"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_discard",
+                    "i":  1,
+                    "phase":  "blind_select",
+                    "result":  {
+                                   "error":  "continue_not_available",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "7"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_discard",
+                    "i":  2,
+                    "phase":  "blind_select",
+                    "result":  {
+                                   "error":  "continue_not_available",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "7"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_discard",
+                    "i":  3,
+                    "phase":  "blind_select",
+                    "result":  {
+                                   "error":  "continue_not_available",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "7"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_discard",
+                    "i":  4,
+                    "phase":  "blind_select",
+                    "result":  {
+                                   "error":  "continue_not_available",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "7"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_discard",
+                    "i":  5,
+                    "phase":  "blind_select",
+                    "result":  {
+                                   "error":  "continue_not_available",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "7"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_discard",
+                    "i":  6,
+                    "phase":  "blind_select",
+                    "result":  {
+                                   "error":  "continue_not_available",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "7"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_discard",
+                    "i":  7,
+                    "phase":  "blind_select",
+                    "result":  {
+                                   "error":  "continue_not_available",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "7"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_discard",
+                    "i":  8,
+                    "phase":  "blind_select",
+                    "result":  {
+                                   "error":  "continue_not_available",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "7"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_discard",
+                    "i":  9,
+                    "phase":  "blind_select",
+                    "result":  {
+                                   "error":  "continue_not_available",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "7"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_discard",
+                    "i":  10,
+                    "phase":  "blind_select",
+                    "result":  {
+                                   "error":  "continue_not_available",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "7"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_discard",
+                    "i":  11,
+                    "phase":  "blind_select",
+                    "result":  {
+                                   "error":  "continue_not_available",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "7"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_discard",
+                    "i":  12,
+                    "phase":  "blind_select",
+                    "result":  {
+                                   "error":  "continue_not_available",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "7"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_discard",
+                    "i":  13,
+                    "phase":  "blind_select",
+                    "result":  {
+                                   "error":  "continue_not_available",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "7"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_discard",
+                    "i":  14,
+                    "phase":  "blind_select",
+                    "result":  {
+                                   "error":  "continue_not_available",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "7"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_discard",
+                    "i":  15,
+                    "phase":  "blind_select",
+                    "result":  {
+                                   "error":  "continue_not_available",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "7"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_discard",
+                    "i":  16,
+                    "phase":  "blind_select",
+                    "result":  {
+                                   "error":  "continue_not_available",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "7"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_discard",
+                    "i":  17,
+                    "phase":  "blind_select",
+                    "result":  {
+                                   "error":  "continue_not_available",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "7"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_discard",
+                    "i":  18,
+                    "phase":  "blind_select",
+                    "result":  {
+                                   "error":  "continue_not_available",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "7"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_discard",
+                    "i":  19,
+                    "phase":  "blind_select",
+                    "result":  {
+                                   "error":  "continue_not_available",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "7"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_discard",
+                    "i":  20,
+                    "phase":  "blind_select",
+                    "result":  {
+                                   "error":  "continue_not_available",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "7"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_discard",
+                    "i":  21,
+                    "phase":  "blind_select",
+                    "result":  {
+                                   "error":  "continue_not_available",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "7"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_discard",
+                    "i":  22,
+                    "phase":  "blind_select",
+                    "result":  {
+                                   "error":  "continue_not_available",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "7"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_discard",
+                    "i":  23,
+                    "phase":  "blind_select",
+                    "result":  {
+                                   "error":  "continue_not_available",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "7"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_discard",
+                    "i":  24,
+                    "phase":  "blind_select",
+                    "result":  {
+                                   "error":  "continue_not_available",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "7"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_discard",
+                    "i":  25,
+                    "phase":  "blind_select",
+                    "result":  {
+                                   "error":  "continue_not_available",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "7"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_discard",
+                    "i":  26,
+                    "phase":  "blind_select",
+                    "result":  {
+                                   "error":  "continue_not_available",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "7"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_discard",
+                    "i":  27,
+                    "phase":  "blind_select",
+                    "result":  {
+                                   "error":  "continue_not_available",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "7"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_discard",
+                    "i":  28,
+                    "phase":  "blind_select",
+                    "result":  {
+                                   "error":  "continue_not_available",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "7"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_discard",
+                    "i":  29,
+                    "phase":  "blind_select",
+                    "result":  {
+                                   "error":  "continue_not_available",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "7"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_discard",
+                    "i":  30,
+                    "phase":  "blind_select",
+                    "result":  {
+                                   "error":  "continue_not_available",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "7"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_discard",
+                    "i":  31,
+                    "phase":  "blind_select",
+                    "result":  {
+                                   "error":  "continue_not_available",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "-1"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_discard",
+                    "i":  32,
+                    "phase":  "menu",
+                    "result":  {
+                                   "error":  "continue_not_available",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "-1"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_discard",
+                    "i":  33,
+                    "phase":  "menu",
+                    "result":  null
+                },
+                {
+                    "stage":  "prep_discard",
+                    "i":  34,
+                    "phase":  null,
+                    "result":  {
+                                   "error":  "ui_not_ready_screenwipe",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "action_blocked_until_screenwipe_ready"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_discard",
+                    "i":  35,
+                    "phase":  "menu",
+                    "result":  {
+                                   "error":  "ui_not_ready_screenwipe",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "action_blocked_until_screenwipe_ready"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_discard",
+                    "i":  36,
+                    "phase":  "menu",
+                    "result":  {
+                                   "error":  "ui_not_ready_screenwipe",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "action_blocked_until_screenwipe_ready"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_discard",
+                    "i":  37,
+                    "phase":  "menu",
+                    "result":  {
+                                   "error":  "ui_not_ready_screenwipe",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "action_blocked_until_screenwipe_ready"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_discard",
+                    "i":  38,
+                    "phase":  "menu",
+                    "result":  {
+                                   "error":  "ui_not_ready_screenwipe",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "action_blocked_until_screenwipe_ready"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_discard",
+                    "i":  39,
+                    "phase":  "menu",
+                    "result":  {
+                                   "error":  "ui_not_ready_screenwipe",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "action_blocked_until_screenwipe_ready"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_discard",
+                    "i":  40,
+                    "phase":  "menu",
+                    "result":  {
+                                   "error":  "ui_not_ready_screenwipe",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "action_blocked_until_screenwipe_ready"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_discard",
+                    "i":  41,
+                    "phase":  "menu",
+                    "result":  {
+                                   "error":  "ui_not_ready_screenwipe",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "action_blocked_until_screenwipe_ready"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_discard",
+                    "i":  42,
+                    "phase":  "menu",
+                    "result":  {
+                                   "error":  "ui_not_ready_screenwipe",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "action_blocked_until_screenwipe_ready"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_discard",
+                    "i":  43,
+                    "phase":  "menu",
+                    "result":  {
+                                   "error":  "ui_not_ready_screenwipe",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "action_blocked_until_screenwipe_ready"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_discard",
+                    "i":  44,
+                    "phase":  "menu",
+                    "result":  {
+                                   "error":  "ui_not_ready_screenwipe",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "action_blocked_until_screenwipe_ready"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_discard",
+                    "i":  45,
+                    "phase":  "menu",
+                    "result":  {
+                                   "error":  "ui_not_ready_screenwipe",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "action_blocked_until_screenwipe_ready"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_discard",
+                    "i":  46,
+                    "phase":  "menu",
+                    "result":  {
+                                   "error":  "ui_not_ready_screenwipe",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "action_blocked_until_screenwipe_ready"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_discard",
+                    "i":  47,
+                    "phase":  "menu",
+                    "result":  {
+                                   "error":  "ui_not_ready_screenwipe",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "action_blocked_until_screenwipe_ready"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_discard",
+                    "i":  48,
+                    "phase":  "menu",
+                    "result":  {
+                                   "error":  "ui_not_ready_screenwipe",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "action_blocked_until_screenwipe_ready"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_discard",
+                    "i":  49,
+                    "phase":  "menu",
+                    "result":  {
+                                   "error":  "ui_not_ready_screenwipe",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "action_blocked_until_screenwipe_ready"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_discard",
+                    "i":  50,
+                    "phase":  "menu",
+                    "result":  {
+                                   "error":  "ui_not_ready_screenwipe",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "action_blocked_until_screenwipe_ready"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_discard",
+                    "i":  51,
+                    "phase":  "menu",
+                    "result":  {
+                                   "error":  "ui_not_ready_screenwipe",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "action_blocked_until_screenwipe_ready"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_discard",
+                    "i":  52,
+                    "phase":  "menu",
+                    "result":  {
+                                   "error":  "ui_not_ready_screenwipe",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "action_blocked_until_screenwipe_ready"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_discard",
+                    "i":  53,
+                    "phase":  "menu",
+                    "result":  {
+                                   "error":  "ui_not_ready_screenwipe",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "action_blocked_until_screenwipe_ready"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_discard",
+                    "i":  54,
+                    "phase":  "menu",
+                    "result":  {
+                                   "error":  "ui_not_ready_screenwipe",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "action_blocked_until_screenwipe_ready"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_discard",
+                    "i":  55,
+                    "phase":  "menu",
+                    "result":  {
+                                   "error":  "ui_not_ready_screenwipe",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "action_blocked_until_screenwipe_ready"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_discard",
+                    "i":  56,
+                    "phase":  "menu",
+                    "result":  {
+                                   "error":  "ui_not_ready_screenwipe",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "action_blocked_until_screenwipe_ready"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_discard",
+                    "i":  57,
+                    "phase":  "menu",
+                    "result":  {
+                                   "error":  "ui_not_ready_screenwipe",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "action_blocked_until_screenwipe_ready"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_discard",
+                    "i":  58,
+                    "phase":  "menu",
+                    "result":  {
+                                   "error":  "ui_not_ready_screenwipe",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "action_blocked_until_screenwipe_ready"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_discard",
+                    "i":  59,
+                    "phase":  "menu",
+                    "result":  {
+                                   "error":  "ui_not_ready_screenwipe",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "action_blocked_until_screenwipe_ready"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_discard",
+                    "i":  60,
+                    "phase":  "menu",
+                    "result":  {
+                                   "error":  "ui_not_ready_screenwipe",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "action_blocked_until_screenwipe_ready"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_discard",
+                    "i":  61,
+                    "phase":  "menu",
+                    "result":  {
+                                   "error":  "ui_not_ready_screenwipe",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "action_blocked_until_screenwipe_ready"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_discard",
+                    "i":  62,
+                    "phase":  "menu",
+                    "result":  {
+                                   "error":  "ui_not_ready_screenwipe",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "action_blocked_until_screenwipe_ready"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_discard",
+                    "i":  63,
+                    "phase":  "menu",
+                    "result":  {
+                                   "error":  "ui_not_ready_screenwipe",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "action_blocked_until_screenwipe_ready"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_discard",
+                    "i":  64,
+                    "phase":  "menu",
+                    "result":  {
+                                   "error":  "ui_not_ready_screenwipe",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "action_blocked_until_screenwipe_ready"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_discard",
+                    "i":  65,
+                    "phase":  "menu",
+                    "result":  {
+                                   "error":  "ui_not_ready_screenwipe",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "action_blocked_until_screenwipe_ready"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_discard",
+                    "i":  66,
+                    "phase":  "menu",
+                    "result":  {
+                                   "error":  "ui_not_ready_screenwipe",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "action_blocked_until_screenwipe_ready"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_discard",
+                    "i":  67,
+                    "phase":  "menu",
+                    "result":  {
+                                   "error":  "ui_not_ready_screenwipe",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "action_blocked_until_screenwipe_ready"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_discard",
+                    "i":  68,
+                    "phase":  "menu",
+                    "result":  {
+                                   "error":  "ui_not_ready_screenwipe",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "action_blocked_until_screenwipe_ready"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_discard",
+                    "i":  69,
+                    "phase":  "menu",
+                    "result":  {
+                                   "error":  "ui_not_ready_screenwipe",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "action_blocked_until_screenwipe_ready"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_discard",
+                    "i":  70,
+                    "phase":  "menu",
+                    "result":  {
+                                   "error":  "ui_not_ready_screenwipe",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "action_blocked_until_screenwipe_ready"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_discard",
+                    "i":  71,
+                    "phase":  "menu",
+                    "result":  {
+                                   "error":  "ui_not_ready_screenwipe",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "action_blocked_until_screenwipe_ready"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_discard",
+                    "i":  72,
+                    "phase":  "menu",
+                    "result":  {
+                                   "error":  "ui_not_ready_screenwipe",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "action_blocked_until_screenwipe_ready"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_discard",
+                    "i":  73,
+                    "phase":  "menu",
+                    "result":  {
+                                   "error":  "ui_not_ready_screenwipe",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "action_blocked_until_screenwipe_ready"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_discard",
+                    "i":  74,
+                    "phase":  "menu",
+                    "result":  {
+                                   "error":  "ui_not_ready_screenwipe",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "action_blocked_until_screenwipe_ready"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_discard",
+                    "i":  75,
+                    "phase":  "menu",
+                    "result":  {
+                                   "error":  "ui_not_ready_screenwipe",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "action_blocked_until_screenwipe_ready"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_discard",
+                    "i":  76,
+                    "phase":  "menu",
+                    "result":  {
+                                   "error":  "ui_not_ready_screenwipe",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "action_blocked_until_screenwipe_ready"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_discard",
+                    "i":  77,
+                    "phase":  "menu",
+                    "result":  {
+                                   "error":  "ui_not_ready_screenwipe",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "action_blocked_until_screenwipe_ready"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_discard",
+                    "i":  78,
+                    "phase":  "menu",
+                    "result":  {
+                                   "error":  "ui_not_ready_screenwipe",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "action_blocked_until_screenwipe_ready"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "stage":  "prep_discard",
+                    "i":  79,
+                    "phase":  "menu",
+                    "result":  {
+                                   "error":  "ui_not_ready_screenwipe",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "action_blocked_until_screenwipe_ready"
+                                                ],
+                                   "success":  false
+                               }
+                },
+                {
+                    "step":  4,
+                    "action":  "continue",
+                    "result":  {
+                                   "error":  "ui_not_ready_screenwipe",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "action_blocked_until_screenwipe_ready"
+                                                ],
+                                   "success":  false
+                               },
+                    "phase":  "menu"
+                },
+                {
+                    "step":  5,
+                    "action":  "continue",
+                    "result":  {
+                                   "error":  "ui_not_ready_screenwipe",
+                                   "action_type":  "continue",
+                                   "warnings":  [
+                                                    "action_blocked_until_screenwipe_ready"
+                                                ],
+                                   "success":  false
+                               },
+                    "phase":  "menu"
+                },
+                {
+                    "step":  6,
+                    "action":  "reroll_shop",
+                    "result":  {
+                                   "error":  "ui_not_ready_screenwipe",
+                                   "action_type":  "reroll_shop",
+                                   "warnings":  [
+                                                    "action_blocked_until_screenwipe_ready"
+                                                ],
+                                   "success":  false
+                               },
+                    "phase":  "menu"
+                },
+                {
+                    "step":  7,
+                    "action":  "buy_item",
+                    "item_id":  null,
+                    "result":  {
+                                   "error":  "shop_items_empty",
+                                   "success":  false
+                               },
+                    "phase":  "menu"
+                }
+            ]
+}

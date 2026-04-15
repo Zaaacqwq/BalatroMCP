@@ -1,0 +1,62 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "balatro.game_state.schema.json",
+  "title": "GameState",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "state_version",
+    "session_id",
+    "run_id",
+    "phase",
+    "action_points",
+    "resources",
+    "hand",
+    "jokers",
+    "consumables",
+    "shop",
+    "blind",
+    "meta"
+  ],
+  "properties": {
+    "schema_version": {"type": "string"},
+    "state_version": {"type": "integer", "minimum": 0},
+    "session_id": {"type": "string"},
+    "run_id": {"type": "string"},
+    "seed": {"type": "string"},
+    "phase": {
+      "type": "string",
+      "enum": ["menu", "blind_select", "in_round", "shop", "pack", "game_over"]
+    },
+    "turn_index": {"type": "integer", "minimum": 0},
+    "action_points": {
+      "type": "object",
+      "required": ["hands_left", "discards_left"],
+      "properties": {
+        "hands_left": {"type": "integer", "minimum": 0},
+        "discards_left": {"type": "integer", "minimum": 0}
+      },
+      "additionalProperties": true
+    },
+    "resources": {
+      "type": "object",
+      "required": ["money", "chips", "mult", "ante", "round_score_target", "current_score"],
+      "properties": {
+        "money": {"type": "integer"},
+        "chips": {"type": "integer"},
+        "mult": {"type": "integer"},
+        "ante": {"type": "integer"},
+        "round_score_target": {"type": "integer"},
+        "current_score": {"type": "integer"}
+      },
+      "additionalProperties": true
+    },
+    "hand": {"type": "array", "items": {"type": "object"}},
+    "jokers": {"type": "array", "items": {"type": "object"}},
+    "consumables": {"type": "array", "items": {"type": "object"}},
+    "shop": {"type": "object"},
+    "blind": {"type": "object"},
+    "meta": {"type": "object"}
+  },
+  "additionalProperties": true
+}

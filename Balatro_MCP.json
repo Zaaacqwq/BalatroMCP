@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "balatro": {
+      "command": "C:\\Users\\ZacPC\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+      "args": [
+        "E:\\BalatroLLM\\balatro_mcp_stdio.py"
+      ]
+    }
+  }
+}

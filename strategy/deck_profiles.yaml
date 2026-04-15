@@ -1,0 +1,182 @@
+version: 1
+
+decks:
+  red:
+    fact: "+1 discard every round"
+    primary_bias:
+      - consistency
+      - discard-enabled setup
+    preferred_lines:
+      - pair
+      - two_pair
+      - flush
+      - straight
+    policy:
+      - "Use the extra discard to sculpt reliable hands."
+      - "Keep the build efficient rather than overly greedy."
+
+  blue:
+    fact: "+1 hand every round"
+    primary_bias:
+      - safety
+      - flexible tempo
+    preferred_lines:
+      - pair
+      - two_pair
+      - flush
+    policy:
+      - "Use the extra hand to reduce risk and avoid forced all-in lines."
+      - "Value consistency and reserve lines over flashy pivots."
+
+  yellow:
+    fact: "Start with extra $10"
+    primary_bias:
+      - early tempo
+      - economy compounding
+    preferred_lines:
+      - pair
+      - two_pair
+      - build-dependent
+    policy:
+      - "Convert early money into either strong tempo or a strong economy start."
+      - "Do not waste the opening advantage on low-synergy rerolls."
+
+  green:
+    fact: "End of round cash from remaining hands/discards; no interest"
+    primary_bias:
+      - preserve actions
+      - efficient clears
+    preferred_lines:
+      - pair
+      - two_pair
+      - flush
+    policy:
+      - "Value spare hands and discards as direct income."
+      - "Interest synergies are devalued; efficient blind clears are favored."
+
+  black:
+    fact: "+1 Joker slot, -1 hand every round"
+    primary_bias:
+      - joker synergy
+      - compressed tempo
+    preferred_lines:
+      - joker-supported line only
+    policy:
+      - "Use the extra Joker slot to assemble a stronger synergy package."
+      - "Respect the lower hand count and avoid slow setup."
+
+  magic:
+    fact: "Start with Crystal Ball and 2 The Fool"
+    primary_bias:
+      - consumable leverage
+      - tactical flexibility
+    preferred_lines:
+      - build-dependent
+    policy:
+      - "Use early consumables proactively to stabilize."
+      - "Treat consumable value as a core engine, not a side bonus."
+
+  nebula:
+    fact: "Start with Telescope, -1 consumable slot"
+    primary_bias:
+      - planet focus
+      - narrow hand commitment
+    preferred_lines:
+      - one clearly identified line
+    policy:
+      - "Commit to a main hand type earlier than usual."
+      - "Avoid carrying low-value consumables because slot pressure is real."
+
+  ghost:
+    fact: "Spectral cards may appear in the shop; start with Hex"
+    primary_bias:
+      - high leverage
+      - controlled risk
+    preferred_lines:
+      - build-dependent
+    policy:
+      - "Use spectral access for meaningful spikes, not random chaos."
+      - "Only take downside-heavy plays when the upside materially improves win chances."
+
+  abandoned:
+    fact: "Start with no face cards in deck"
+    primary_bias:
+      - non-face consistency
+      - cleaner rank distribution
+    preferred_lines:
+      - pair
+      - two_pair
+      - straight
+      - full_house
+    policy:
+      - "Ignore face-card synergy packages unless the deck later changes."
+      - "Exploit the cleaner deck structure for consistent hand assembly."
+
+  checkered:
+    fact: "Deck starts with only Spades and Hearts"
+    primary_bias:
+      - flush consistency
+      - suit concentration
+    preferred_lines:
+      - flush
+      - straight_flush
+    policy:
+      - "Flush lines are premium by default."
+      - "Value suit-based scaling and deck enhancement highly."
+
+  zodiac:
+    fact: "Start with Tarot Merchant, Planet Merchant, and Overstock"
+    primary_bias:
+      - shop acceleration
+      - resource density
+    preferred_lines:
+      - build-dependent
+    policy:
+      - "Leverage the stronger shops to find synergy faster."
+      - "Prioritize high-quality buys over speculative reroll chains."
+
+  painted:
+    fact: "+2 hand size, -1 Joker slot"
+    primary_bias:
+      - hand assembly
+      - reduced joker dependence
+    preferred_lines:
+      - straight
+      - flush
+      - full_house
+    policy:
+      - "Use the larger hand size to assemble stronger natural hands."
+      - "Be selective because each Joker slot is more valuable."
+
+  anaglyph:
+    fact: "Gain Double Tag after each Boss Blind"
+    primary_bias:
+      - skip planning
+      - tag exploitation
+    preferred_lines:
+      - build-dependent
+    policy:
+      - "Plan blind skips with future Double Tag leverage in mind."
+      - "Do not skip recklessly into danger just because tags are available."
+
+  plasma:
+    fact: "Balance Chips and Mult when scoring; X2 base Blind size"
+    primary_bias:
+      - balanced scoring
+      - stronger raw output
+    preferred_lines:
+      - any line with balanced scaling
+    policy:
+      - "Evaluate actions using chip/mult balance rather than normal hand intuition."
+      - "Respect the larger blind size and buy tempo sooner."
+
+  erratic:
+    fact: "All ranks and suits in deck are randomized"
+    primary_bias:
+      - adaptive pattern recognition
+      - opportunism
+    preferred_lines:
+      - whatever the randomized deck actually supports
+    policy:
+      - "Inspect actual deck composition early and commit to real concentrations."
+      - "Avoid forcing a textbook plan that the deck does not support."

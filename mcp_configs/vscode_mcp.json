@@ -1,0 +1,12 @@
+{
+  "_comment": "用于 VS Code GitHub Copilot (>=1.99) 的 MCP 配置，合并到 .vscode/mcp.json 或用户 settings.json",
+  "servers": {
+    "balatro": {
+      "type": "stdio",
+      "command": "C:\\Users\\ZacPC\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+      "args": [
+        "E:\\BalatroLLM\\balatro_mcp_stdio.py"
+      ]
+    }
+  }
+}

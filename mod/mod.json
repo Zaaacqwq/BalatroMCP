@@ -1,0 +1,12 @@
+{
+  "id": "balatro_mcp_bridge",
+  "name": "Balatro MCP Bridge",
+  "display_name": "Balatro MCP Bridge",
+  "author": ["ZacPC", "GitHub Copilot"],
+  "description": "Bridge Balatro runtime state/actions to a local MCP server.",
+  "prefix": "bmcp",
+  "version": "0.1.1",
+  "main_file": "entry.lua",
+  "priority": -10,
+  "dependencies": []
+}

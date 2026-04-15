@@ -1,0 +1,12 @@
+{
+  "_comment": "用于 OpenAI Codex CLI (~/.codex/config.json) 的 MCP 配置",
+  "mcpServers": {
+    "balatro": {
+      "type": "stdio",
+      "command": "C:\\Users\\ZacPC\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+      "args": [
+        "E:\\BalatroLLM\\balatro_mcp_stdio.py"
+      ]
+    }
+  }
+}

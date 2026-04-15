@@ -1,0 +1,62 @@
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: "Consolas", "Segoe UI", monospace;
+  background: linear-gradient(120deg, #10171f, #192433);
+  color: #e7eef8;
+}
+header {
+  padding: 16px 20px;
+  border-bottom: 1px solid #32455f;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 12px;
+  padding: 12px;
+}
+section {
+  background: rgba(17, 24, 34, 0.88);
+  border: 1px solid #32455f;
+  border-radius: 8px;
+  padding: 10px;
+}
+h1, h2 { margin: 0 0 8px 0; }
+h2 { font-size: 15px; color: #9ac7ff; }
+pre {
+  margin: 0;
+  white-space: pre-wrap;
+  word-break: break-word;
+  max-height: 240px;
+  overflow: auto;
+}
+.row { margin-bottom: 8px; display: flex; gap: 8px; flex-wrap: wrap; }
+input, textarea, button {
+  background: #0f1926;
+  color: #e7eef8;
+  border: 1px solid #446182;
+  border-radius: 6px;
+  padding: 8px;
+}
+input, textarea { width: 100%; }
+textarea {
+  resize: vertical;
+  min-height: 70px;
+}
+select {
+  width: 100%;
+  background: #0f1926;
+  color: #e7eef8;
+  border: 1px solid #446182;
+  border-radius: 6px;
+  padding: 8px;
+}
+button { cursor: pointer; }
+button:hover { border-color: #73a9e8; }
+#health { font-size: 13px; color: #94ffc2; }
+#rpc-result {
+  max-height: 280px;
+}

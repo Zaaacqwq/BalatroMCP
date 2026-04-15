@@ -1,0 +1,11 @@
+{
+  "servers": {
+    "balatro": {
+      "type": "stdio",
+      "command": "e:\\BalatroLLM\\.venv\\Scripts\\python.exe",
+      "args": [
+        "e:\\BalatroLLM\\balatro_mcp_stdio.py"
+      ]
+    }
+  }
+}

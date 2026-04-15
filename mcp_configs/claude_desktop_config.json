@@ -1,0 +1,12 @@
+{
+  "_comment": "合并到 %APPDATA%\\Claude\\claude_desktop_config.json 的 mcpServers 节点下",
+  "mcpServers": {
+    "balatro": {
+      "command": "C:\\Users\\ZacPC\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+      "args": [
+        "E:\\BalatroLLM\\balatro_mcp_stdio.py"
+      ],
+      "description": "Balatro game controller — lets Claude play Balatro via MCP"
+    }
+  }
+}

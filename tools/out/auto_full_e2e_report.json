@@ -1,0 +1,19 @@
+{
+  "timestamp": 1776038060,
+  "elapsed_seconds": 96.739,
+  "exit_code": 0,
+  "success_actions": [
+    "buy_item",
+    "choose_option",
+    "continue",
+    "deselect_card",
+    "discard_selected",
+    "end_turn",
+    "play_hand",
+    "reroll_shop",
+    "select_card",
+    "skip"
+  ],
+  "failed_actions": {},
+  "missing_actions": []
+}

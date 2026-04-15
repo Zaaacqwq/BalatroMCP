@@ -1,0 +1,59 @@
+﻿{
+    "preflight_tools":  8,
+    "start_phase":  "blind_select",
+    "steps":  [
+                  {
+                      "step":  "choose_blind",
+                      "result":  {
+                                     "error":  "invalid_action_payload",
+                                     "success":  false
+                                 }
+                  },
+                  {
+                      "step":  "play_hand",
+                      "result":  {
+                                     "error":  "invalid_action_payload",
+                                     "success":  false
+                                 }
+                  },
+                  {
+                      "step":  "discard_selected",
+                      "result":  {
+                                     "error":  "invalid_action_payload",
+                                     "success":  false
+                                 }
+                  },
+                  {
+                      "step":  "settle_continue",
+                      "result":  {
+                                     "error":  "invalid_action_payload",
+                                     "success":  false
+                                 }
+                  },
+                  {
+                      "step":  "enter_shop_continue",
+                      "result":  {
+                                     "error":  "invalid_action_payload",
+                                     "success":  false
+                                 }
+                  },
+                  {
+                      "step":  "reroll_shop",
+                      "result":  {
+                                     "error":  "invalid_action_payload",
+                                     "success":  false
+                                 }
+                  },
+                  {
+                      "step":  "buy_item",
+                      "item_id":  null,
+                      "result":  {
+                                     "error":  "no_shop_items",
+                                     "success":  false
+                                 }
+                  }
+              ],
+    "final_phase":  "blind_select",
+    "final_money":  4,
+    "final_shop_items":  1
+}

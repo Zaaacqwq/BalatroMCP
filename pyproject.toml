@@ -1,0 +1,32 @@
+[project]
+name = "balatro-mcp"
+version = "0.1.0"
+description = "Balatro Mod Bridge + MCP Server"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "fastapi>=0.115.0",
+  "uvicorn>=0.30.0",
+  "pydantic>=2.8.0",
+  "mcp[cli]>=1.0.0",
+  "pywin32>=300; sys_platform=='win32'"
+]
+
+[project.scripts]
+balatro-mcp = "balatro_mcp.mcp_server.stdio_main:main"
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.3.0",
+  "httpx>=0.27.0"
+]
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["balatro_mcp*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

@@ -1,0 +1,34 @@
+version: 1
+
+shop_policy:
+  default_buy_priority:
+    - "Immediate survival upgrade"
+    - "Strong synergy joker for current line"
+    - "Multiplicative scaling on established line"
+    - "High-fit voucher"
+    - "Planet support for established line"
+    - "Tarot/Spectral support with acceptable downside"
+
+  reroll_policy:
+    safe_cash_floor: 5
+    policy:
+      - "Do not reroll aggressively in early shops without economy support."
+      - "Reroll when the current shop meaningfully fails the build and cash is above the safe floor."
+      - "Reroll less on high stakes unless current shop is effectively dead."
+
+  voucher_policy:
+    policy:
+      - "Buy vouchers that improve consistency, economy, or access to the current build's resources."
+      - "Treat prerequisite vouchers as worthwhile only if the future pair matters."
+
+  pack_policy:
+    buffoon:
+      when: "joker quality is the main bottleneck"
+    celestial:
+      when: "main hand type is identified and worth leveling"
+    arcana:
+      when: "deck editing or enhancements are highly valuable"
+    standard:
+      when: "specific card quality, ranks, suits, seals, or editions are needed"
+    spectral:
+      when: "the deck can absorb downside and needs a meaningful spike"

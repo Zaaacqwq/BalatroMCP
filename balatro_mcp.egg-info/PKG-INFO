@@ -1,0 +1,87 @@
+Metadata-Version: 2.4
+Name: balatro-mcp
+Version: 0.1.0
+Summary: Balatro Mod Bridge + MCP Server
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: fastapi>=0.115.0
+Requires-Dist: uvicorn>=0.30.0
+Requires-Dist: pydantic>=2.8.0
+Requires-Dist: mcp[cli]>=1.0.0
+Requires-Dist: pywin32>=300; sys_platform == "win32"
+Provides-Extra: dev
+Requires-Dist: pytest>=8.3.0; extra == "dev"
+Requires-Dist: httpx>=0.27.0; extra == "dev"
+
+# Balatro MCP
+
+Initial implementation scaffold for a Balatro Mod Bridge + MCP tool server.
+
+## MVP Included
+
+- `get_game_state`
+- `list_legal_actions`
+- `execute_action`
+- stdio MCP bridge for Copilot/Codex/Claude via `balatro_mcp_stdio.py`
+- explicit action tools such as `choose_blind`, `play_hand`, `buy_item`, and `end_turn`
+
+## Quick Start
+
+1. Install dependencies:
+
+```bash
+pip install -e .[dev]
+```
+
+2. Run server:
+
+```bash
+uvicorn balatro_mcp.mcp_server.server:app --reload
+```
+
+3. Open docs:
+
+- http://127.0.0.1:8000/docs
+
+## API Endpoints
+
+- `GET /mcp/tools`
+- `POST /mcp/call`
+- `POST /bridge/mod/event`
+- `POST /bridge/mod/snapshot`
+- `POST /bridge/mod/heartbeat`
+- `GET /bridge/mod/next_command`
+- `POST /bridge/mod/command_result`
+- `GET /bridge/mod/status`
+
+The bridge currently supports two execute modes:
+
+- Local mode (default): action is executed by in-process action engine.
+- Relay mode (`relay=true` in `execute_action`): action is queued for the Mod client.
+
+## Mod Scaffold (SMODS/Lua)
+
+The `mod/` directory now includes a modular scaffold:
+
+- `main.lua`: tick loop + control gate
+- `state_extractor.lua`: runtime normalization stub
+- `action_executor.lua`: action dispatch table
+- `event_emitter.lua`: event forwarding
+- `sync_controller.lua`: pause/control lock
+- `bridge_client.lua`: bridge transport placeholder
+
+This is a contract-first scaffold. Replace transport and stubs with real SMODS hooks.
+
+## Real Mod Integration Progress
+
+Implemented:
+
+- Bridge relay protocol endpoints and command queue.
+- Lua mod tick loop with heartbeat, snapshot cadence, command poll cadence.
+- Adapter pattern to isolate Balatro runtime-specific hook logic.
+
+Remaining for full in-game control:
+
+- Wire SMODS hooks to `mod/smods_hooks_template.lua` equivalents.
+- Implement a real adapter that reads Balatro runtime and executes real actions.
+- Ensure Lua runtime has `socket.http` and JSON support (`cjson` or `dkjson`).

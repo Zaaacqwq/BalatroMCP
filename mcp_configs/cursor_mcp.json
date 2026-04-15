@@ -1,0 +1,11 @@
+{
+  "_comment": "保存为项目根目录的 .cursor/mcp.json，或合并到全局 ~/.cursor/mcp.json",
+  "mcpServers": {
+    "balatro": {
+      "command": "C:\\Users\\ZacPC\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+      "args": [
+        "E:\\BalatroLLM\\balatro_mcp_stdio.py"
+      ]
+    }
+  }
+}

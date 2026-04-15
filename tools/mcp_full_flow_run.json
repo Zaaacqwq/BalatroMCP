@@ -1,0 +1,504 @@
+﻿{
+    "start_state":  {
+                        "jokers":  {
+
+                                   },
+                        "hand":  {
+
+                                 },
+                        "resources":  {
+                                          "round_score_target":  300,
+                                          "ante":  1,
+                                          "current_score":  0,
+                                          "chips":  0,
+                                          "money":  0,
+                                          "mult":  0
+                                      },
+                        "consumables":  {
+
+                                        },
+                        "blind":  {
+                                      "name":  "Small Blind",
+                                      "level":  1
+                                  },
+                        "schema_version":  "0.1.0",
+                        "meta":  {
+                                     "timestamp":  1775859145,
+                                     "adapter_attached":  true,
+                                     "source":  "smods_adapter"
+                                 },
+                        "phase":  "menu",
+                        "shop":  {
+                                     "pack_options":  {
+
+                                                      },
+                                     "items":  {
+
+                                               },
+                                     "reroll_cost":  5
+                                 },
+                        "turn_index":  0,
+                        "action_points":  {
+                                              "hands_left":  0,
+                                              "discards_left":  0
+                                          }
+                    },
+    "start_legal":  {
+                        "action_type":  "continue",
+                        "params_schema":  {
+
+                                          }
+                    },
+    "steps":  [
+                  {
+                      "step":  "选盲注 choose_option(small)",
+                      "result":  {
+                                     "error":  "invalid_action_payload",
+                                     "success":  false
+                                 },
+                      "state_after":  {
+                                          "jokers":  {
+
+                                                     },
+                                          "hand":  {
+
+                                                   },
+                                          "resources":  {
+                                                            "round_score_target":  300,
+                                                            "ante":  1,
+                                                            "current_score":  0,
+                                                            "chips":  0,
+                                                            "money":  0,
+                                                            "mult":  0
+                                                        },
+                                          "consumables":  {
+
+                                                          },
+                                          "blind":  {
+                                                        "name":  "Small Blind",
+                                                        "level":  1
+                                                    },
+                                          "schema_version":  "0.1.0",
+                                          "meta":  {
+                                                       "timestamp":  1775859145,
+                                                       "adapter_attached":  true,
+                                                       "source":  "smods_adapter"
+                                                   },
+                                          "phase":  "menu",
+                                          "shop":  {
+                                                       "pack_options":  {
+
+                                                                        },
+                                                       "items":  {
+
+                                                                 },
+                                                       "reroll_cost":  5
+                                                   },
+                                          "turn_index":  0,
+                                          "action_points":  {
+                                                                "hands_left":  0,
+                                                                "discards_left":  0
+                                                            }
+                                      },
+                      "legal_after":  {
+                                          "action_type":  "continue",
+                                          "params_schema":  {
+
+                                                            }
+                                      }
+                  },
+                  {
+                      "step":  "打牌 play_hand",
+                      "result":  {
+                                     "error":  "invalid_action_payload",
+                                     "success":  false
+                                 },
+                      "state_after":  {
+                                          "jokers":  {
+
+                                                     },
+                                          "hand":  {
+
+                                                   },
+                                          "resources":  {
+                                                            "round_score_target":  300,
+                                                            "ante":  1,
+                                                            "current_score":  0,
+                                                            "chips":  0,
+                                                            "money":  0,
+                                                            "mult":  0
+                                                        },
+                                          "consumables":  {
+
+                                                          },
+                                          "blind":  {
+                                                        "name":  "Small Blind",
+                                                        "level":  1
+                                                    },
+                                          "schema_version":  "0.1.0",
+                                          "meta":  {
+                                                       "timestamp":  1775859145,
+                                                       "adapter_attached":  true,
+                                                       "source":  "smods_adapter"
+                                                   },
+                                          "phase":  "menu",
+                                          "shop":  {
+                                                       "pack_options":  {
+
+                                                                        },
+                                                       "items":  {
+
+                                                                 },
+                                                       "reroll_cost":  5
+                                                   },
+                                          "turn_index":  0,
+                                          "action_points":  {
+                                                                "hands_left":  0,
+                                                                "discards_left":  0
+                                                            }
+                                      },
+                      "legal_after":  {
+                                          "action_type":  "continue",
+                                          "params_schema":  {
+
+                                                            }
+                                      }
+                  },
+                  {
+                      "step":  "弃牌 discard_selected",
+                      "result":  {
+                                     "error":  "invalid_action_payload",
+                                     "success":  false
+                                 },
+                      "state_after":  {
+                                          "jokers":  {
+
+                                                     },
+                                          "hand":  {
+
+                                                   },
+                                          "resources":  {
+                                                            "round_score_target":  300,
+                                                            "ante":  1,
+                                                            "current_score":  0,
+                                                            "chips":  0,
+                                                            "money":  0,
+                                                            "mult":  0
+                                                        },
+                                          "consumables":  {
+
+                                                          },
+                                          "blind":  {
+                                                        "name":  "Small Blind",
+                                                        "level":  1
+                                                    },
+                                          "schema_version":  "0.1.0",
+                                          "meta":  {
+                                                       "timestamp":  1775859145,
+                                                       "adapter_attached":  true,
+                                                       "source":  "smods_adapter"
+                                                   },
+                                          "phase":  "menu",
+                                          "shop":  {
+                                                       "pack_options":  {
+
+                                                                        },
+                                                       "items":  {
+
+                                                                 },
+                                                       "reroll_cost":  5
+                                                   },
+                                          "turn_index":  0,
+                                          "action_points":  {
+                                                                "hands_left":  0,
+                                                                "discards_left":  0
+                                                            }
+                                      },
+                      "legal_after":  {
+                                          "action_type":  "continue",
+                                          "params_schema":  {
+
+                                                            }
+                                      }
+                  },
+                  {
+                      "step":  "结算 continue",
+                      "result":  {
+                                     "error":  "invalid_action_payload",
+                                     "success":  false
+                                 },
+                      "state_after":  {
+                                          "jokers":  {
+
+                                                     },
+                                          "hand":  {
+
+                                                   },
+                                          "resources":  {
+                                                            "round_score_target":  300,
+                                                            "ante":  1,
+                                                            "current_score":  0,
+                                                            "chips":  0,
+                                                            "money":  0,
+                                                            "mult":  0
+                                                        },
+                                          "consumables":  {
+
+                                                          },
+                                          "blind":  {
+                                                        "name":  "Small Blind",
+                                                        "level":  1
+                                                    },
+                                          "schema_version":  "0.1.0",
+                                          "meta":  {
+                                                       "timestamp":  1775859145,
+                                                       "adapter_attached":  true,
+                                                       "source":  "smods_adapter"
+                                                   },
+                                          "phase":  "menu",
+                                          "shop":  {
+                                                       "pack_options":  {
+
+                                                                        },
+                                                       "items":  {
+
+                                                                 },
+                                                       "reroll_cost":  5
+                                                   },
+                                          "turn_index":  0,
+                                          "action_points":  {
+                                                                "hands_left":  0,
+                                                                "discards_left":  0
+                                                            }
+                                      },
+                      "legal_after":  {
+                                          "action_type":  "continue",
+                                          "params_schema":  {
+
+                                                            }
+                                      }
+                  },
+                  {
+                      "step":  "进商店 continue",
+                      "result":  {
+                                     "error":  "invalid_action_payload",
+                                     "success":  false
+                                 },
+                      "state_after":  {
+                                          "jokers":  {
+
+                                                     },
+                                          "hand":  {
+
+                                                   },
+                                          "resources":  {
+                                                            "round_score_target":  300,
+                                                            "ante":  1,
+                                                            "current_score":  0,
+                                                            "chips":  0,
+                                                            "money":  0,
+                                                            "mult":  0
+                                                        },
+                                          "consumables":  {
+
+                                                          },
+                                          "blind":  {
+                                                        "name":  "Small Blind",
+                                                        "level":  1
+                                                    },
+                                          "schema_version":  "0.1.0",
+                                          "meta":  {
+                                                       "timestamp":  1775859145,
+                                                       "adapter_attached":  true,
+                                                       "source":  "smods_adapter"
+                                                   },
+                                          "phase":  "menu",
+                                          "shop":  {
+                                                       "pack_options":  {
+
+                                                                        },
+                                                       "items":  {
+
+                                                                 },
+                                                       "reroll_cost":  5
+                                                   },
+                                          "turn_index":  0,
+                                          "action_points":  {
+                                                                "hands_left":  0,
+                                                                "discards_left":  0
+                                                            }
+                                      },
+                      "legal_after":  {
+                                          "action_type":  "continue",
+                                          "params_schema":  {
+
+                                                            }
+                                      }
+                  },
+                  {
+                      "step":  "刷新商店 reroll_shop",
+                      "result":  {
+                                     "error":  "invalid_action_payload",
+                                     "success":  false
+                                 },
+                      "state_after":  {
+                                          "jokers":  {
+
+                                                     },
+                                          "hand":  {
+
+                                                   },
+                                          "resources":  {
+                                                            "round_score_target":  300,
+                                                            "ante":  1,
+                                                            "current_score":  0,
+                                                            "chips":  0,
+                                                            "money":  0,
+                                                            "mult":  0
+                                                        },
+                                          "consumables":  {
+
+                                                          },
+                                          "blind":  {
+                                                        "name":  "Small Blind",
+                                                        "level":  1
+                                                    },
+                                          "schema_version":  "0.1.0",
+                                          "meta":  {
+                                                       "timestamp":  1775859145,
+                                                       "adapter_attached":  true,
+                                                       "source":  "smods_adapter"
+                                                   },
+                                          "phase":  "menu",
+                                          "shop":  {
+                                                       "pack_options":  {
+
+                                                                        },
+                                                       "items":  {
+
+                                                                 },
+                                                       "reroll_cost":  5
+                                                   },
+                                          "turn_index":  0,
+                                          "action_points":  {
+                                                                "hands_left":  0,
+                                                                "discards_left":  0
+                                                            }
+                                      },
+                      "legal_after":  {
+                                          "action_type":  "continue",
+                                          "params_schema":  {
+
+                                                            }
+                                      }
+                  },
+                  {
+                      "step":  "购买 buy_item(first)",
+                      "item_id":  null,
+                      "result":  {
+                                     "error":  "shop_items_empty",
+                                     "success":  false
+                                 },
+                      "state_after":  {
+                                          "jokers":  {
+
+                                                     },
+                                          "hand":  {
+
+                                                   },
+                                          "resources":  {
+                                                            "round_score_target":  300,
+                                                            "ante":  1,
+                                                            "current_score":  0,
+                                                            "chips":  0,
+                                                            "money":  0,
+                                                            "mult":  0
+                                                        },
+                                          "consumables":  {
+
+                                                          },
+                                          "blind":  {
+                                                        "name":  "Small Blind",
+                                                        "level":  1
+                                                    },
+                                          "schema_version":  "0.1.0",
+                                          "meta":  {
+                                                       "timestamp":  1775859145,
+                                                       "adapter_attached":  true,
+                                                       "source":  "smods_adapter"
+                                                   },
+                                          "phase":  "menu",
+                                          "shop":  {
+                                                       "pack_options":  {
+
+                                                                        },
+                                                       "items":  {
+
+                                                                 },
+                                                       "reroll_cost":  5
+                                                   },
+                                          "turn_index":  0,
+                                          "action_points":  {
+                                                                "hands_left":  0,
+                                                                "discards_left":  0
+                                                            }
+                                      },
+                      "legal_after":  {
+                                          "action_type":  "continue",
+                                          "params_schema":  {
+
+                                                            }
+                                      }
+                  }
+              ],
+    "final_state":  {
+                        "jokers":  {
+
+                                   },
+                        "hand":  {
+
+                                 },
+                        "resources":  {
+                                          "round_score_target":  300,
+                                          "ante":  1,
+                                          "current_score":  0,
+                                          "chips":  0,
+                                          "money":  0,
+                                          "mult":  0
+                                      },
+                        "consumables":  {
+
+                                        },
+                        "blind":  {
+                                      "name":  "Small Blind",
+                                      "level":  1
+                                  },
+                        "schema_version":  "0.1.0",
+                        "meta":  {
+                                     "timestamp":  1775859145,
+                                     "adapter_attached":  true,
+                                     "source":  "smods_adapter"
+                                 },
+                        "phase":  "menu",
+                        "shop":  {
+                                     "pack_options":  {
+
+                                                      },
+                                     "items":  {
+
+                                               },
+                                     "reroll_cost":  5
+                                 },
+                        "turn_index":  0,
+                        "action_points":  {
+                                              "hands_left":  0,
+                                              "discards_left":  0
+                                          }
+                    },
+    "final_legal":  {
+                        "action_type":  "continue",
+                        "params_schema":  {
+
+                                          }
+                    }
+}

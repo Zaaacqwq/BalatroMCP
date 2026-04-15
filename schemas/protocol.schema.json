@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "balatro.protocol.schema.json",
+  "title": "BridgeEnvelope",
+  "type": "object",
+  "required": ["type", "payload"],
+  "properties": {
+    "type": {
+      "type": "string",
+      "enum": [
+        "state_snapshot",
+        "event",
+        "action_result",
+        "heartbeat",
+        "error",
+        "execute_action",
+        "request_snapshot",
+        "pause_control",
+        "resume_control"
+      ]
+    },
+    "payload": {"type": "object"}
+  },
+  "additionalProperties": false
+}

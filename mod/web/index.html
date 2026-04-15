@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Balatro MCP Mod Console</title>
+  <link rel="stylesheet" href="/web/style.css" />
+</head>
+<body>
+  <header>
+    <h1>Balatro MCP Mod Console</h1>
+    <div id="health">connecting...</div>
+  </header>
+
+  <main>
+    <section>
+      <h2>Phase</h2>
+      <pre id="phase"></pre>
+    </section>
+
+    <section>
+      <h2>Resources</h2>
+      <pre id="resources"></pre>
+    </section>
+
+    <section>
+      <h2>Hand</h2>
+      <pre id="hand"></pre>
+    </section>
+
+    <section>
+      <h2>Jokers</h2>
+      <pre id="jokers"></pre>
+    </section>
+
+    <section>
+      <h2>Shop</h2>
+      <pre id="shop"></pre>
+    </section>
+
+    <section>
+      <h2>Legal Actions</h2>
+      <pre id="legal-actions"></pre>
+    </section>
+
+    <section>
+      <h2>Action Control</h2>
+      <div class="row">
+        <input id="action-type" placeholder="action_type (e.g. continue)" />
+      </div>
+      <div class="row">
+        <textarea id="action-params" rows="4" placeholder='{"card_id":"..."}'></textarea>
+      </div>
+      <div class="row">
+        <button id="btn-execute">Execute</button>
+        <button id="btn-pause">Pause</button>
+        <button id="btn-resume">Resume</button>
+        <button id="btn-refresh">Snapshot</button>
+      </div>
+      <pre id="action-result"></pre>
+    </section>
+
+    <section>
+      <h2>Recent History</h2>
+      <pre id="history"></pre>
+    </section>
+  </main>
+
+  <script src="/web/app.js"></script>
+</body>
+</html>
